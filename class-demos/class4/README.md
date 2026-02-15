@@ -1,1 +1,1 @@
-This 
+This read me will serve as the documentation for this class exercise. VSCodium was used to build and edit the website locally.  Using VSCodium three files were created that include an index.js, main.js, and a server.js.  The index.html and main.js serve as the front end of the website in the public folder.  The server.js is the back end of the website and serves as the backend of the website.  Other files that are not present in the GitHub and were included in the Digital Ocean folder are node_modules, package-lock.json, and package.json.  
