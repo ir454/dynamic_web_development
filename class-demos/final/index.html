@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Harmonic Nodes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Harmonic Nodes</h1>
+    <p>
+      Move with <strong>W/A/S/D</strong>, look with <strong>Arrow Keys</strong>.<br>
+      Press keys <strong>1–4</strong> to move cubes to your position,<br>
+      or drag cubes on the mini-map below to reposition them in 3D.
+    </p>
+    <button id="resetButton">Reset Positions</button>
+  </header>
 
+  <div id="window"></div>
+  <canvas id="miniMap"></canvas>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
